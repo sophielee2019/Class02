@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let a : Int = 0
+        if a > 0 {
+            print(">0")
+        }
+        else {
+            print("<=0")
+        }
         
         
     }
