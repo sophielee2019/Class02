@@ -13,15 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+      
         
-        let a : Int = 0
+        let a = add(a: 2, b: 5)
+        
         if a > 0 {
             print(">0")
+            print("a = \( a )")
         }
         else {
             print("<=0")
         }
         
+   
         
     }
     
